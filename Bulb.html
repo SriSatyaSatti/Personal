@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Bulb</title>
+        <script>
+            function funon(){
+                 document.getElementById('bul').src='bulbon.jpg';
+                document.getElementById('bon').style.backgroundImage='url(r.gif)';
+            }
+            function funoff(){
+                document.getElementById('bul').src='bulboff.jpg';
+                document.getElementById('bon').style.backgroundImage='url(bg.gif)';
+           }
+        </script>
+        <style>
+            h1{
+                color:white;
+                font-size:50px;
+            }
+            img{
+                height:500px;
+                width:350px;
+            }
+            button{
+                color:aqua;
+                background-color:deeppink;
+                height:100px;
+                width:250px;
+                font-size:40px;
+                font-family:verdana;
+            }
+        </style>
+    </head>
+    <body id="bon" style="background-image:url('bg.gif')">
+       <center>
+        <h1>THE BULB GAME</h1>
+        <br></br>
+        <button style="margin-right:50px;" onclick="funon()">CLICK TO ON</button>
+        <img id="bul" src="bulboff.jpg">        
+        <button style="margin-left:50px;" onclick="funoff()">CLICK TO OFF</button>
+       </center>
+    </body>
+    </html>
