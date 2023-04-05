@@ -1,0 +1,59 @@
+#box {
+    border: 1px solid black;
+    margin-top: 150px;
+    top: 150px;
+    width: 500px;
+    height: auto;
+   background-color:white;
+   margin-right: 50px;
+   margin-left: 500px;
+   border-radius: 10px;
+  }
+button{
+    color: black;
+    height: 50px;
+    width: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    font-style:bold;
+    margin-bottom: 20px;
+    background-color: rgb(234, 234, 99);
+    border-radius: 10px;
+}
+body{
+    background-image: url('https://wallpapercave.com/wp/upwJyk8.jpg');
+}
+label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    font-style:bold;
+    margin-left: 50px;
+    display: inline;
+}
+input{
+    height: 30px;
+    width: 300px;
+    margin-left: 100px;
+    margin-top:10px;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    font-style:bold;
+    margin-left: 200px;
+}
+select{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    font-style:bold;
+    height: 30px;
+    width: 300px;
+    margin-left: 30px;
+    color: black;
+    background-color: white;
+    margin-top: 20px;
+}
+h1{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
